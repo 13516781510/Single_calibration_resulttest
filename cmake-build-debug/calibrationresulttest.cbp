@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="calibrationresulttest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\opencv\;CMake Files\opencv\opencv\;CMake Files\opencv\opencv\mingwbuild\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/29451/Desktop/Single_camera_calibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calibrationresulttest">
+				<Option output="C:/Users/29451/Desktop/Single_camera_calibration/calibrationresulttest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/29451/Desktop/Single_camera_calibration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/opencv/opencv/mingwbuild"/>
+					<Add directory="D:/opencv/opencv/sources/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/video/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 calibrationresulttest"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calibrationresulttest/fast">
+				<Option output="C:/Users/29451/Desktop/Single_camera_calibration/calibrationresulttest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/29451/Desktop/Single_camera_calibration"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/opencv/opencv/mingwbuild"/>
+					<Add directory="D:/opencv/opencv/sources/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/core/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/dnn/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/video/include"/>
+					<Add directory="D:/opencv/opencv/sources/modules/gapi/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.40.33807\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 calibrationresulttest/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/29451/Desktop/Single_camera_calibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/29451/Desktop/Single_camera_calibration/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\29451\Desktop\Single_camera_calibration\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/29451/Desktop/Single_camera_calibration/CameraParams.h">
+			<Option target="calibrationresulttest"/>
+		</Unit>
+		<Unit filename="C:/Users/29451/Desktop/Single_camera_calibration/main.cpp">
+			<Option target="calibrationresulttest"/>
+		</Unit>
+		<Unit filename="C:/Users/29451/Desktop/Single_camera_calibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/29451/Desktop/Single_camera_calibration/opencv/opencv/mingwbuild/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\mingwbuild\"/>
+		</Unit>
+		<Unit filename="C:/Users/29451/Desktop/Single_camera_calibration/opencv/opencv/mingwbuild/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\mingwbuild\"/>
+		</Unit>
+		<Unit filename="C:/Users/29451/Desktop/Single_camera_calibration/opencv/opencv/mingwbuild/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv\opencv\mingwbuild\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
